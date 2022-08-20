@@ -2,6 +2,11 @@
 
 :root{
     --primary-color : darkviolet; 
+    --primary-grad-color: linear-gradient(
+        to left,
+        darkviolet,
+        deepskyblue
+    );
 }
 
 *{
@@ -15,7 +20,10 @@ body{
     margin: 0;
 }
 /* Start Header */
-
+header{
+    height: 80vh;
+    background: var(--primary-grad-color);
+}
 /* Start Header Intro */
 .headerintros{
     color: #fff;
@@ -90,6 +98,12 @@ body{
 /* Start Banner */
 .banners{
     width: 90%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
 }
 
 /* End Banner */
