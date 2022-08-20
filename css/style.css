@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+:root{
+    --primary-color : darkviolet; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+/* Start Header */
+
+/* Start Header Intro */
+.headerintros{
+    color: #fff;
+    background-color: var(--primary-color);
+
+    padding: 15px 0;
+    display: none;
+}
+
+@media (min-width : 1200px) {
+    .visiblelgs{
+        display: block;
+    }
+}
+.infos{
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerintros a{
+    color: #fff;
+    margin: 0 10px;
+}
+
+
+/* End Header Intro */
+
+
+/* Start Nav Bar */
+.menustyles{
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+
+    transition: color .5s;
+}
+
+.menustyles li a:hover{
+    color: var(--primary-color);
+}
+
+.navbuttons{
+    border: none;
+}
+.navbuttons:focus{
+    box-shadow: none;
+}
+.lines1,.lines2,.lines3{
+    width: 17px;
+    height: 2px;
+
+    margin: 3px;
+}
+
+.crossxs .lines1{
+    transform: rotate(-45deg) translate(-3px,4px);
+}
+
+.crossxs .lines2{
+    transform: rotate(45deg) translate(-3px,-4px);
+}   
+
+.crossxs .lines3{
+
+}
+/* End Nav Bar */
+
+/* Start Banner */
+.banners{
+    width: 90%;
+}
+
+/* End Banner */
+/* End Header */
