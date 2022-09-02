@@ -281,3 +281,87 @@ nav{
     background-color: blue;
 }
 /* End Faculty Section */
+
+/* Start Pricing Section  */
+.pricingboxs{
+    background-color: #eee;
+    text-align: center;
+
+    transition: transform .3s;
+}
+.pricingboxs:hover{
+    transform: translateY(-20px);
+}
+
+.price-headers{
+    color: #fff;
+    background-color: var(--secondary-color);
+    
+    padding: 10px 0;
+}
+
+.prices{
+    font-size: 3rem;
+    font-weight: bold;
+
+    background-image: url('../asssets/img/icon/pricebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    line-height: 160px;
+}
+
+.price-items li{
+    margin: 10px 0;
+}
+/* End Pricing Section  */
+
+/* Start Location Area Section  */
+.libcards{
+    perspective: 1000px;
+
+    position: relative;
+}
+
+.libcontents{
+    width: 0%;
+    height: 100%;
+
+    color: #fff;
+    background-color: #444;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    transform: rotateY(-90deg);
+    transform-origin: left center;
+
+    transition: all .3s;
+}
+
+.libcards:hover .libcontents{
+    width: 70%;
+    transform: rotateY(0deg);
+}
+
+
+.btn-infos{
+    width: 50%;
+
+    color: #fff;
+    background-color: steelblue;
+    
+    text-decoration: none;
+    text-align: center;
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.btn-infos:hover{
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+/* End Location Area Section  */
