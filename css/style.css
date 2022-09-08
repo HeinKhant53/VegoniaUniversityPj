@@ -365,3 +365,38 @@ nav{
 }
 
 /* End Location Area Section  */
+
+
+/* Start Features Section  */
+.features{
+    background-color: var(--secondary-color);
+}
+
+.feas img{
+    transform: rotateY(0deg) scale(0.5);
+
+    transition: transform .8s;
+}
+
+.feas:hover img{
+    transform: rotateY(1turn) scale(1);
+}
+
+.feas p{
+    font-size: 12px;
+}
+/* End Features Section  */
+
+
+
+/* 
+accordion
+->accordion-item
+    ->accordion-header
+        ->accordion-button (collapsed)
+            data-bs-toggle="collapse"
+            data-bs-target="#id"
+    
+     id="" class="accordion-collpase collpase" (show)
+    ->accordion-body
+*/
