@@ -387,6 +387,90 @@ nav{
 }
 /* End Features Section  */
 
+/* Start Rating Section */
+.headings{
+   font-size: 25px;
+   margin-right: 25px; 
+}
+
+.fa-star{
+    font-size: 25px;
+}
+
+.fills{
+    color: orange;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.lefts{
+    width: 20%;
+
+    margin-bottom: 10px;
+
+    z-index: 1;
+}
+
+.middles{
+    width: 60%;
+
+    margin-bottom: 10px;
+}
+
+.rights{
+    width: 20%;
+
+    text-align: right;
+
+    margin-bottom: 10px;
+}
+
+.bars-container{
+    width: 100%;
+    background-color: #f1f1f1;
+
+}
+
+.bars-1{
+   width: 60%;
+   height: 18px;
+   
+   background-color: green;
+}
+
+.bars-2{
+    width: 30%;
+    height: 18px;
+    
+    background-color: blue;
+ }
+
+ .bars-3{
+    width: 10%;
+    height: 18px;
+    
+    background-color: skyblue;
+ }
+
+ .bars-4{
+    width: 5%;
+    height: 18px;
+    
+    background-color: orange;
+ }
+
+ .bars-5{
+    width: 15%;
+    height: 18px;
+    
+    background-color: red;
+ }
+/* End Rating Section */
+
 
 
 /* 
