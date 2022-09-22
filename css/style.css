@@ -471,6 +471,191 @@ nav{
  }
 /* End Rating Section */
 
+/* Start Subscribe Section  */
+.subscribes{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.2)
+    ),
+    url('../asssets/img/etc/student1.png');
+
+    background-repeat: no-repeat;
+    background-position: 80%;
+}
+
+@media (max-width: 992px) {
+    .subscribes{
+        background-image: linear-gradient(
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.2)
+        );
+        background-position: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .subscribes{
+        background-position: 90%;
+    }
+}
+
+.input-group-text{
+    color: #ffff;
+    background-color: royalblue;
+}
+
+.squareareas{
+    position: relative;
+
+    overflow: hidden;
+}
+
+.sqboxes{
+    width: 100%;
+    height: 100%;
+
+}
+
+.square{
+    width: 70px;
+    height: 70px;
+
+    background-color: #f2f2f2;
+
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+
+    animation: sqani 3s infinite ease-in-out;
+}
+
+@keyframes sqani{
+    0%{
+        bottom: -100px;
+    }
+    100%{
+        bottom: 100%;
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+}
+
+.square:nth-child(1){
+    width: 70px;
+    height: 70px;
+    left: 7%;
+}
+
+.square:nth-child(2){
+    width: 65px;
+    height: 65px;
+    left: 30%;
+
+    animation-delay: 4s;
+}
+
+.square:nth-child(3){
+    width: 82px;
+    height: 82px;
+    left: 45%;
+
+    animation-delay: 8s;
+}
+
+.square:nth-child(4){
+    width: 70px;
+    height: 70px;
+    left: 55%;
+
+    animation-delay: 2s;
+}
+
+.square:nth-child(5){
+    width: 60px;
+    height: 60px;
+    left: 67%;
+
+    animation-delay: 6s;
+}
+
+.square:nth-child(6){
+    width: 55px;
+    height: 55px;
+    left: 27%;
+
+    animation-delay: 4s;
+}
+
+.square:nth-child(7){
+    width: 90px;
+    height: 90px;
+    left: 7%;
+
+    animation-delay: 9s;
+}
+
+.square:nth-child(8){
+    width: 70px;
+    height: 70px;
+    left: 75%;
+
+    animation-delay: 4s;
+
+}
+
+.square:nth-child(9){
+    width: 45px;
+    height: 45px;
+    left: 10%;
+
+    animation-delay: 3s;
+}
+
+.square:nth-child(10){
+    width: 50px;
+    height: 50px;
+    left: 55%;
+}
+/* End Subscribe Section  */
+
+/* Start Footer Section */
+.footerlinks{
+    color: #eee;
+
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footerlinks:hover{
+    color: orange;
+
+    border-bottom: 1px solid orange;
+    letter-spacing: 1px;
+}
+
+.footersocialicons a{
+    width: 30px;
+    height: 30px;
+
+    color: #fff;
+
+    display: inline-block;
+
+    border: 1px solid #f4f4f4;
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 30px;
+
+    margin: 0 2px;
+}
+
+.footersocialicons a:hover{
+    background-color: blue;
+}
+/* End Footer Section */
+
+
 
 
 /* 
