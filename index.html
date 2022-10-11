@@ -17,6 +17,43 @@
 </head>
 <body>
 
+    <!-- Start Stick Note -->
+        <div class="sticknotes">
+            <a href="#aboutuss" class="about">About</a>
+            <a href="#faq" class="pages">Pages</a>
+            <a href="#locations" class="news">News</a>
+            <a href="#subscribe" class="contact">Contact</a>
+        </div>
+    <!-- End Stick Note -->
+
+    <!-- Start Login Box = popup box -->
+    <button id="open-btns" class="open-btns">
+        <i class="fas fa-user"></i>
+    </button>
+
+    <div id="form-popups" class="form-popups">
+        <form class="form-container" action="" method="">
+            <h6>Login Here!!!</h6>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="" placeholder="Enter Email" required autocomplete="off" />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="" placeholder="Enter Password" required autocomplete="off" />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-info btn-sm rounded-0 mb-2">Login</button>
+                <button type="submit" id="formclose-btn" class="btn btn-danger btn-sm rounded-0 mb-2">Close</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- End Login Box -->
+
     <!-- Start Header Section -->
     <header>
         <!-- Start Header Intro -->
@@ -68,13 +105,13 @@
 
             <div id="mynav" class="navbar-collapse collapse justify-content-end text-uppercase fw-bolder mx-3">
                 <ul class="navbar-nav menustyles">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Shortcode</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Structure</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">News</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#aboutuss" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#faculties" class="nav-link">Shortcode</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">Pages</a></li>
+                    <li class="nav-item"><a href="#locations" class="nav-link">News</a></li>
+                    <li class="nav-item"><a href="#subscribe" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -128,7 +165,7 @@
 
 
     <!-- Start About Section -->
-    <section class="py-5 aboutuss">
+    <section id="aboutuss" class="py-5 aboutuss">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6"></div>
@@ -891,6 +928,7 @@
     <!-- Start Footer Section -->
     <footer class="bg-dark px-5">
         <div class="container-fluid">
+
             <div class="row text-light py-4">
                 <div class="col-lg-3 col-mb-6">
                     <h6 class="mb-3">Information</h6>
@@ -1043,6 +1081,23 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            
+            <div class="container">
+                
+                <div class="text-light d-flex justify-content-between border-top pt-4">
+                    <p>Copyright &copy; <span id="getyear"></span> <a href="#" class="text-danger">Pro</a> All rights reserved.</p>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-angle-up  backtotop-btns"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
             </div>
         </div>
     </footer>

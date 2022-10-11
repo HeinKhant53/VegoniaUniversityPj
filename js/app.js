@@ -9,6 +9,16 @@ $(document).ready(function(){
 
         //End Nav Bar
     // End Header
+
+    // Start Login Box
+    $("#open-btns").click(function(){
+        document.getElementById('form-popups').style.display = "block";
+    });
+
+    $("#formclose-btn").click(function(){
+        document.getElementById('form-popups').style.display = "none";
+    });
+    // End Login Box
 });
 
 
@@ -80,4 +90,15 @@ $(document).ready(function(){
         //end google code for chart
 
     //End Rating Section
+
+
+    // Start Footer Section
+        const getyear = document.getElementById("getyear");
+
+        const getfullyear = new Date().getFullYear();
+
+        getyear.textContent = getfullyear;
+    // End Footer Section
+    
+
 //End Javascript Area

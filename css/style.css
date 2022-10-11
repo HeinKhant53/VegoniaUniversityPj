@@ -653,9 +653,135 @@ nav{
 .footersocialicons a:hover{
     background-color: blue;
 }
+
+.backtotop-btns{
+    color: #fff;
+    background-color: #333;
+
+    padding: 10px;
+}
+
+.backtotop-btns:hover{
+    background-color: #555;
+}
 /* End Footer Section */
 
 
+
+
+
+/* Start Stick Note */
+.sticknotes a{
+    width: 100px;
+
+    color: #fff;
+    background-color: steelblue;
+
+    font-size: 20px;
+    text-decoration: none;
+
+    border-radius: 0 5px 5px 0;
+    padding: 15px;
+
+    position: fixed;
+    left: -80px;
+
+    z-index: 100;
+
+    transition: left .3s;
+}
+.sticknotes a:hover{
+    left: 0;
+}
+
+.sticknotes .about{
+    top: 200px;
+    background-color: green;
+}
+
+.sticknotes .pages{
+    top: 260px;
+    background-color: skyblue;
+}
+
+.sticknotes .news{
+    top: 320px;
+    background-color: tomato;
+}
+
+.sticknotes .contact{
+    top: 380px;
+    background-color: grey;
+}
+/* End Stick Note */
+
+
+
+
+
+/* Start Login Box */
+.open-btns{
+    width: 30px;
+    height: 30px;
+
+    color: #fff;
+    background-color: #555;
+
+    border: none;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+    z-index: 10;
+
+    opacity: 0.8;
+}
+
+.open-btns:hover{
+    opacity: 1;
+}
+
+.form-popups{
+    background-color: #fff;
+    
+    border: 3px solid #f1f1f1;
+    padding: 10px;
+
+    position: fixed;
+    right: 15px;
+    bottom: 50px;
+    
+    z-index: 100;
+
+    display: none;
+
+    transition: all .5s;
+}
+
+.form-container{
+    width: 300px;
+    padding: 10px;
+}
+
+.form-group input[type=email],.form-group input[type=password]{
+    width: 100%;
+
+    background-color: #f1f1f1;
+    
+    border: none;
+    padding: 15px;
+    margin: 10px 0px;
+}
+
+
+.form-group input[type=email]:focus,.form-group input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* End Login Box */
 
 
 /* 
